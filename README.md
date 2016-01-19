@@ -8,8 +8,10 @@ It should only be used when a case holds true for a variety of similar values, s
 Let's assume a spec theory, using `theoreticallyIt`:
 
 ```js
+var theoretically = require("jasmine-theories");
+
 describe("NumberStack", function() {
-  theoreticallyIt("fails if the inserted value is %s (not a number)", [ null, false, new Error("hello"), "str" ], function(insertedValue, done) {
+  theoretically.it("fails if the inserted value is %s (not a number)", [ null, false, new Error("hello"), "str" ], function(insertedValue, done) {
     var stack = new NumberStack();
     expect(function() {
       stack.push(insertedValue);
