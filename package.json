@@ -4,7 +4,7 @@
   "description": "Lets you run the same spec with varying input. Like theories in XUnit.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node node_modules/jasmine/bin/jasmine.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/hypesystem/jasmine-theories/issues"
   },
-  "homepage": "https://github.com/hypesystem/jasmine-theories"
+  "homepage": "https://github.com/hypesystem/jasmine-theories",
+  "devDependencies": {
+    "jasmine": "^2.4.1"
+  }
 }
