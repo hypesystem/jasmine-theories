@@ -17,8 +17,8 @@
     "theory",
     "theories"
   ],
-  "author": "Niels Abildgaard <me@hypesystem>",
-  "license": "MIT",
+  "author": "Niels Roesen Abildgaard <me@hypesystem>",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/hypesystem/jasmine-theories/issues"
   },
