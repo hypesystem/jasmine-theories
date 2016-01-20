@@ -26,3 +26,5 @@ We would want this output if the cases `false` and `new Error("hello")` fails:
 Failed: NumberStack fails if the inserted value is false (not a number)
 Failed: NumberStack fails if the inserted value is Error (not a number)
 ```
+
+The library also supports `theoretically.xit`, which adds pending tests to the spec.
