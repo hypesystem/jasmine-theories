@@ -1,10 +1,10 @@
 {
   "name": "jasmine-theories",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Lets you run the same spec with varying input. Like theories in XUnit.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node node_modules/jasmine/bin/jasmine.js"
   },
   "repository": {
     "type": "git",
@@ -17,10 +17,18 @@
     "theory",
     "theories"
   ],
-  "author": "Niels Abildgaard <me@hypesystem>",
-  "license": "MIT",
+  "author": "Niels Roesen Abildgaard <me@hypesystem>",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/hypesystem/jasmine-theories/issues"
   },
-  "homepage": "https://github.com/hypesystem/jasmine-theories"
+  "files": [
+    "index.js",
+    "lib/"
+  ],
+  "homepage": "https://github.com/hypesystem/jasmine-theories",
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "lodash": "^4.0.0"
+  }
 }
