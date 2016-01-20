@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/hypesystem/jasmine-theories",
   "devDependencies": {
-    "jasmine": "^2.4.1"
+    "jasmine": "^2.4.1",
+    "lodash": "^4.0.0"
   }
 }
