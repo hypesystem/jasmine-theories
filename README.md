@@ -5,7 +5,7 @@ This lib adds theories to jasmine.
 Theories make it possible to run the same testing code with varying inputs.
 It should only be used when a case holds true for a variety of similar values, such as in the example provided below.
 
-Let's assume a spec theory, using `theoreticallyIt`:
+Let's build a spec theory, using `theoretically.it`:
 
 ```js
 var theoretically = require("jasmine-theories");
