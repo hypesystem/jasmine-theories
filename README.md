@@ -11,7 +11,7 @@ Let's assume a spec theory, using `theoreticallyIt`:
 var theoretically = require("jasmine-theories");
 
 describe("NumberStack", function() {
-  theoretically.it("fails if the inserted value is %s (not a number)", [ null, false, new Error("hello"), "str" ], function(insertedValue, done) {
+  theoretically.it("fails if the inserted value is %s (not a number)", [ null, false, new Error("hello"), "str" ], function(insertedValue) {
     var stack = new NumberStack();
     expect(function() {
       stack.push(insertedValue);
