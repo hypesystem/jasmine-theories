@@ -1,6 +1,6 @@
 {
-  "name": "jasmine-theories",
-  "version": "0.2.0",
+  "name": "jasmine-theories-ts",
+  "version": "1.0.0",
   "description": "Lets you run the same spec with varying input. Like theories in XUnit.",
   "main": "index.js",
   "scripts": {
@@ -8,25 +8,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hypesystem/jasmine-theories"
+    "url": "https://github.com/elevatebart/jasmine-theories-ts"
   },
   "keywords": [
     "jasmine",
     "test",
     "spec",
     "theory",
-    "theories"
+    "theories",
+    "typescript"
   ],
-  "author": "Niels Roesen Abildgaard <me@hypesystem>",
+  "authors": ["Niels Roesen Abildgaard <me@hypesystem>", "Bart Ledoux <ledouxb@me.com>"],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hypesystem/jasmine-theories/issues"
+    "url": "https://github.com/elevatebart/jasmine-theories-ts/issues"
   },
   "files": [
     "index.js",
     "lib/"
   ],
-  "homepage": "https://github.com/hypesystem/jasmine-theories",
+  "homepage": "https://github.com/elevatebart/jasmine-theories-ts",
   "devDependencies": {
     "jasmine": "^2.4.1",
     "lodash": "^4.0.0"
