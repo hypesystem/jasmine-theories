@@ -8,7 +8,7 @@ It should only be used when a case holds true for a variety of similar values, s
 Let's build a spec theory, using `theoretically.it`:
 
 ```js
-var theoretically = require("jasmine-theories-ts");
+var theoretically = require("jasmine-theories");
 
 describe("NumberStack", function() {
   theoretically.it("fails if the inserted value is %s (not a number)", [ null, false, new Error("hello"), "str" ], function(insertedValue) {
@@ -31,5 +31,5 @@ The library also supports `theoretically.xit`, which adds pending tests to the s
 
 For use in typescript use classic import statement
 ```ts
-import theoritically from "jasmine-theories-ts"
+import theoritically from "jasmine-theories"
 ```
