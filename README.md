@@ -31,5 +31,5 @@ The library also supports `theoretically.xit`, which adds pending tests to the s
 
 For use in typescript use classic import statement
 ```ts
-import theoritically from "jasmine-theories"
+import theoretically from "jasmine-theories"
 ```
