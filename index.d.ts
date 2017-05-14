@@ -1,7 +1,7 @@
 declare namespace jasmineTheories {
 	interface jasmineTheoriesStatic {
 		/**
-		 * Runs the jasmine test function with each of the given arguments in the list
+		 * Runs the jasmine test function with each of the given arguments
 		 * @param description the description of the test
 		 * @param args argunments passed to the test
 		 * @param testFunction the test
