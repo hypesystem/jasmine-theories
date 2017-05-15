@@ -28,3 +28,8 @@ Failed: NumberStack fails if the inserted value is Error: hello (not a number)
 ```
 
 The library also supports `theoretically.xit`, which adds pending tests to the spec.
+
+For use in typescript use classic import statement
+```ts
+import theoretically from "jasmine-theories"
+```

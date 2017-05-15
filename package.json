@@ -1,8 +1,9 @@
 {
   "name": "jasmine-theories",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Lets you run the same spec with varying input. Like theories in XUnit.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "node node_modules/jasmine/bin/jasmine.js"
   },
@@ -24,6 +25,7 @@
   },
   "files": [
     "index.js",
+    "index.d.ts",
     "lib/"
   ],
   "homepage": "https://github.com/hypesystem/jasmine-theories",
