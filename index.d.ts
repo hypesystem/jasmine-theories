@@ -6,7 +6,7 @@ declare namespace jasmineTheories {
 		 * @param args argunments passed to the test
 		 * @param testFunction the test
 		 */
-		it(description: string, args: any[], testFunction: (testedValue: any) => void): void;
+		it(description: string, args: any[], testFunction: (testedValue: any, done?: () => void) => void): void;
  
 		/**
 		 * Ignored version of the "it" test (the x means excluded)
@@ -14,7 +14,7 @@ declare namespace jasmineTheories {
 		 * @param args argunments passed to the test
 		 * @param testFunction the test
 		 */
-		xit(description: string, args: any[], testFunction: (testedValue: any) => void): void;
+		xit(description: string, args: any[], testFunction: (testedValue: any, done?: () => void) => void): void;
 	}
  }
  declare var jsminTheories: jasmineTheories.jasmineTheoriesStatic;
