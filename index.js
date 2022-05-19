@@ -1,8 +1,8 @@
-const runItForEachArg = require("./lib/runItForEachArg.js");
+const theorizeIt = require("./lib/theorizeIt.js");
 
 var exports = {
-    it: (description, args, testFunction) => runItForEachArg(it, description, args, testFunction),
-    xit: (description, args, testFunction) => runItForEachArg(xit, description, args, testFunction),
+    it: theorizeIt(it),
+    xit: theorizeIt(xit),
     default: exports,
 };
 
