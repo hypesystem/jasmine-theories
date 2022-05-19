@@ -1,9 +1,10 @@
 const theorizeIt = require("./lib/theorizeIt.js");
 
-var exports = {
-    it: theorizeIt(it),
-    xit: theorizeIt(xit),
-    default: exports,
+const index = {
+    it: theorizeIt("it"),
+    xit: theorizeIt("xit"),
 };
 
-module.exports = exports;
+index.default = index;
+
+module.exports = index;
