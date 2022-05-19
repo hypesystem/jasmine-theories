@@ -30,7 +30,7 @@
   ],
   "homepage": "https://github.com/hypesystem/jasmine-theories",
   "devDependencies": {
-    "jasmine": "^2.4.1",
+    "jasmine": "^4.1.0",
     "lodash": "^4.0.0"
   }
 }
