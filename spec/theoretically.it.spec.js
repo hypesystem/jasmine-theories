@@ -1,15 +1,19 @@
 var _ = require("lodash");
 var theoretically = require("../index.js");
 
-describe("A theory", function() {
+[
+    { key: "it", name: "A theory" },
+    { key: "xit", name: "A pending theory" },
+].forEach(({ key, name }) => {
+describe(name, function() {
     var oldIt;
 
     beforeEach(function() {
-        oldIt = it;
+        oldIt = global[key];
     });
 
     afterEach(function() {
-        it = oldIt;
+        global[key] = oldIt;
     });
 
     it("runs `it` with each value in the value array and a formatted message", function() {
@@ -127,4 +131,5 @@ describe("A theory", function() {
             theoretically.it("can handle this value:", [], function() {});
         }).toThrow(jasmine.any(Error));
     });
+});
 });
