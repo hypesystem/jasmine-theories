@@ -1,6 +1,8 @@
+const runItForEachArg = require("./lib/runItForEachArg.js");
+
 var exports = {
-    it: require("./lib/theoretically.it.js"),
-    xit: require("./lib/theoretically.xit.js"),
+    it: (description, args, testFunction) => runItForEachArg(it, description, args, testFunction),
+    xit: (description, args, testFunction) => runItForEachArg(xit, description, args, testFunction),
     default: exports,
 };
 
